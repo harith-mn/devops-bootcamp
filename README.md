@@ -9,3 +9,4 @@ Sesi Git 2
 - git init / git add / git commit
 ## Tarikh
 ## Diubah dari laptop
+## Diubah dari salinan kedua
