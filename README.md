@@ -8,3 +8,4 @@ Sesi Git 2
 ## Senarai Arahan
 - git init / git add / git commit
 ## Tarikh
+## Diubah dari laptop
