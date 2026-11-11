@@ -1,6 +1,5 @@
 .env
-*.log# Created by https://www.toptal.com/developers/gitignore/api/terraform
-# Edit at https://www.toptal.com/developers/gitignore?templates=terraform
+*.log
 
 ### Terraform ###
 # Local .terraform directories
@@ -38,4 +37,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# End of https://www.toptal.com/developers/gitignore/api/terraform
+### Ansible ###
+inventory.ini
