@@ -1,6 +1,10 @@
 - name: Sediakan web server
   hosts: nodes
   become: true
+  vars:
+    site_title: Armada Infratify
+    site_owner: Pasukan Platform
+    web_port: 80
   tasks:
     - name: Pasang nginx
       apt:
@@ -14,5 +18,5 @@
         enabled: true
     - name: Tulis index.html
       copy:
-        content: "Ini {{ inventory_hostname }}\n"
+        content: "{{ site_title }} - {{ inventory_hostname }} - {{ site_owner }}\n"
         dest: /var/www/html/index.html
