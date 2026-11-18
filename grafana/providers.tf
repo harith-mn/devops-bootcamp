@@ -12,7 +12,7 @@ terraform {
   }
   backend "s3" {
     bucket       = "bootcamp-2026-harith-mn-408970286736-ap-southeast-1-an"
-    key          = "prometheus/terraform.tfstate"
+    key          = "grafana/terraform.tfstate"
     region       = "ap-southeast-1"
     use_lockfile = true
   }
